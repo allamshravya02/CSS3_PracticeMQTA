@@ -8,6 +8,7 @@ body {
 .card {
     display: flex;
     align-items: center;
+    background-color:lightgreen;
     gap: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -30,11 +31,6 @@ body {
     .card {
         flex-direction: column;
         text-align: center;
-    }
-}
-@media screen and (min-width: 600px) {
-    .card {
-        flex-direction: row;
-        text-align: center;
+        background-color:lightblue;
     }
 }
