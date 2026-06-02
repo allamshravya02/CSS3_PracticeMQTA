@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task1</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            display:flex;
+        }
+        .container {
+            
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .Box{
+            display:flex;
+            width:500px;
+            height:800px;
+            margin:auto;
+            padding:10px;
+
+        }
+        @media screen and (min-width:769px){
+            nav {
+                flex-direction:row;
+                background-color:beige;
+            }
+        }
+        @media screen and (max-width:768px){
+            nav{
+                flex-direction:column;
+                background-color:azure;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <a href="task1.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="text-align:center">Responsive Navigation Bar</h1>
+    <div class="Box">
+    
+        <pre>Requirements
+• Create a navigation bar with:
+o Home
+o About
+o Services
+o Contact
+• Desktop (>768px): display menu items horizontally.
+• Mobile (≤768px): display menu items vertically.</pre>
+    </div>
+</body>
+</html>
