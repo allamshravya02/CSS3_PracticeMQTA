@@ -1,0 +1,43 @@
+.loginForm {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+
+    animation: fadeIn 2s;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .loginForm {
+        width: 90%;
+    }
+
+    input {
+        width: 95%;
+    }
+}
