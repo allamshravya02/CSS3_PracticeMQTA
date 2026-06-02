@@ -15,7 +15,6 @@
         .container {
             display:flex;
             width: 100%;
-            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -27,32 +26,26 @@
             padding:10px;
 
         }
-        @media screen and (min-width:769px){
-            nav a {
-                flex-direction:row;
-                background-color:beige;
-            }
-        }
+        
         @media screen and (max-width:768px){
-            nav a{
+            .container{
                 flex-direction:column;
-                background-color:azure;
+                background-color:beige;
             }
         }
         
     </style>
 </head>
 <body>
+    <div class="container">
     <nav>
-        <div class="container">
-            <ul>
                 <a href="task1.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="services.html">Services</a>
                 <a href="contact.html">Contact</a>
-            </ul>
-        </div>
+        
     </nav>
+    </div>
     <h1 style="text-align:center">Responsive Navigation Bar</h1>
     <div class="Box">
     
