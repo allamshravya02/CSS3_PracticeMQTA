@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive card</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+    .signal {
+    width: 80px;
+    background: black;
+    padding: 10px;
+}
+
+.signal div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: gray;
+    margin: 10px;
+}
+
+.red {
+    animation: glow 6s infinite;
+}
+
+.yellow {
+    animation: glow 6s infinite;
+    animation-delay: 2s;
+}
+
+.green {
+    animation: glow 6s infinite;
+    animation-delay: 4s;
+}
+
+@keyframes glow {
+    0%, 33% {
+        background: currentColor;
+    }
+    34%, 100% {
+        background: gray;
+    }
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+</style>
+<body>
+<div class="signal">
+    <div class="red"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+</div>
+</body>
+</html>
