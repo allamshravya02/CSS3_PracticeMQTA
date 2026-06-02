@@ -18,7 +18,7 @@ body {
 .card img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .details h2 {
@@ -26,9 +26,15 @@ body {
 }
 
 /* Mobile View */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .card {
         flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px) {
+    .card {
+        flex-direction: row;
         text-align: center;
     }
 }
