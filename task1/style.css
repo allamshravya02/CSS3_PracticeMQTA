@@ -1,0 +1,27 @@
+
+        body {
+            background-color: #f0f0f0;
+            
+        }
+        .container {
+            display:flex;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .Box{
+            display:flex;
+            width:500px;
+            height:800px;
+            margin:auto;
+            padding:10px;
+
+        }
+        
+        @media screen and (max-width:768px){
+            .container{
+                flex-direction:column;
+                background-color:beige;
+            }
+        }
+        

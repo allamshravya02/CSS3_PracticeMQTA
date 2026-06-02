@@ -1,0 +1,16 @@
+.card{
+        margin:0;
+        padding:20px;
+        width:200px;
+        height:200px;
+        background-color:rgb(202, 225, 233);
+        transition:smooth 1s;
+    }
+    h2,h3{
+        text-align:center;
+    }
+    .card:hover{
+        width:250px;
+        height:250px;
+        background-color:rgb(245, 193, 255);
+    }
